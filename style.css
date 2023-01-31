@@ -6,7 +6,7 @@ body {
     margin: 0;
     background: #222;
     font-family: 'Open Sans', sans-serif;
-    background-image: url(https://www.superprof.co.in/blog/wp-content/uploads/2018/02/landscape-photography-tutorials.jpg);
+    background-image: url('https://source.unsplash.com/1600X900/?landscape');
 }
 
 .card {
