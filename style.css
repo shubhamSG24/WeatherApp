@@ -20,7 +20,6 @@ body {
     opacity: 80%;
 }
 
-
 .weather {
     display: flex;
     flex-direction: column;
@@ -70,6 +69,7 @@ button:hover {
 
 h1.Temperature {
     margin: 0;
+    margin-bottom: 0.4em;
 }
 
 .flex {
@@ -90,4 +90,21 @@ h1.Temperature {
 .description {
     text-transform: capitalize;
     margin-left: 8px;
+}
+
+.weather.loading.page {
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+
+}
+
+.weather.loading.page::after{
+    visibility: visible;
+    content: "Loading...";
+    color: white;
+    top: 0;
+    left: 20px;
+    
+
 }
